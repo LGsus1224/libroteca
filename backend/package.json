@@ -1,0 +1,9 @@
+{
+  "name": "libroteca-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend de Libroteca: autenticación JWT, libros, reseñas y asistente de IA",
+  "main": "server.js",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.js", "test": "node --test test/*.test.js" }
+}
